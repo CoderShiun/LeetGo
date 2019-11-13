@@ -1,8 +1,8 @@
 package main
 
 import (
-	"LeetGo/1108_defanging_an_ip_address"
-	"LeetGo/1_Two_Sum"
+	defanging_an_ip_address "LeetGo/1108_defanging_an_ip_address"
+	Two_Sum "LeetGo/1_Two_Sum"
 	"fmt"
 )
 
