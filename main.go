@@ -1,18 +1,23 @@
 package main
 
 import (
-	"LeetGo/1108_defanging_an_ip_address"
-	"LeetGo/1_Two_Sum"
-	"fmt"
+	subtract_the_product_and_sum_of_digits_of_an_integer "LeetGo/1281_subtract_the_product_and_sum_of_digits_of_an_integer"
 )
 
 func main() {
 	//1
-	nums := []int{3, 2, 4}
+	/*nums := []int{3, 2, 4}
 	target := 6
 	ans := Two_Sum.TwoSum(nums, target)
-	fmt.Println(ans)
+	fmt.Println(ans)*/
 
 	//1108
-	defanging_an_ip_address.DefangIPaddr("127.12.0.1")
+	//defanging_an_ip_address.DefangIPaddr("127.12.0.1")
+
+	/*arr := []int{12,345,2,6,7896}
+	fmt.Println(arr)
+	find_Numbers_with_Even_Number_of_Digits.FindNumbers(arr)*/
+
+	n := 234
+	subtract_the_product_and_sum_of_digits_of_an_integer.SubtractProductAndSum(n)
 }
