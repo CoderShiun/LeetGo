@@ -8,7 +8,8 @@ func SubtractProductAndSum(n int) int {
 	var product = 1
 	var sum int
 
-	for _, v := range strconv.Itoa(n) {
+	strN := strconv.Itoa(n)
+	for _, v := range strN {
 		num, _ := strconv.Atoi(string(v))
 		product *= num
 		sum += num
