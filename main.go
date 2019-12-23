@@ -1,7 +1,8 @@
 package main
 
 import (
-	subtract_the_product_and_sum_of_digits_of_an_integer "LeetGo/1281_subtract_the_product_and_sum_of_digits_of_an_integer"
+	"fmt"
+	"strconv"
 )
 
 func main() {
@@ -18,6 +19,9 @@ func main() {
 	fmt.Println(arr)
 	find_Numbers_with_Even_Number_of_Digits.FindNumbers(arr)*/
 
-	n := 234
-	subtract_the_product_and_sum_of_digits_of_an_integer.SubtractProductAndSum(n)
+	/*n := 234
+	subtract_the_product_and_sum_of_digits_of_an_integer.SubtractProductAndSum(n)*/
+
+	s := strconv.FormatInt(5, 2)
+	fmt.Println(s)
 }
