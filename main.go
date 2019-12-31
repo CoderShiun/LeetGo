@@ -1,8 +1,8 @@
 package main
 
 import (
+	"LeetGo/groupTotals"
 	"fmt"
-	"strconv"
 )
 
 func main() {
@@ -22,6 +22,13 @@ func main() {
 	/*n := 234
 	subtract_the_product_and_sum_of_digits_of_an_integer.SubtractProductAndSum(n)*/
 
-	s := strconv.FormatInt(5, 2)
-	fmt.Println(s)
+	/*s := strconv.FormatInt(5, 2)
+	fmt.Println(s)*/
+
+	/*arr := []int{2, 2, 2, 2, 4, 1}
+	result := sumMulti.SumMultiplier(arr)
+	fmt.Println(result)*/
+
+	strArr := []string{"X:-1", "Y:1", "X:-4", "B:3", "X:5"}
+	fmt.Println(groupTotals.GroupTotals(strArr))
 }
